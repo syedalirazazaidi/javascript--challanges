@@ -16,8 +16,8 @@
 // Print your list to make sure you actually have an empty list at the end of your program
 
 const newArrays = ['ali', 'daniyal', 'khurram', 'mehmood']
-
-console.log('hi and we  are  space for only two guests.')
+// A//
+console.log('w ecan invite only two people for dinner.')
 for (var index = newArrays.length - 1; index >= 0; index--) {
   if (newArrays.length > 2) {
     var element = newArrays[index]
@@ -25,4 +25,15 @@ for (var index = newArrays.length - 1; index >= 0; index--) {
     console.log('sorry', element, 'we  can’t invite them to dinner.')
   }
 }
-console.log(newArrays[0], '&', newArrays[1], 'we  are invited for a dinner.')
+// B//
+console.log(
+  newArrays[0],
+  '&',
+  newArrays[1],
+  'congrat!!! we  are invited for a dinner.',
+)
+//C//
+for (var index = 0; index < newArrays.length + 1; index++) {
+  newArrays.pop()
+}
+console.log(`now we ave empty ${newArrays.length} list`)
