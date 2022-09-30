@@ -17,19 +17,12 @@
 
 const newArrays = ['ali', 'daniyal', 'khurram', 'mehmood']
 
-var newElem = newArrays[0]
-var newValue = newArrays[1]
-
-console.log('you are invite only two people for dinner', newElem, '&', newValue)
-for (var index = 0; index < newArrays.length; index++) {
-  if (newArrays.length >= 2) {
+console.log('hi and we  are  space for only two guests.')
+for (var index = newArrays.length - 1; index >= 0; index--) {
+  if (newArrays.length > 2) {
     var element = newArrays[index]
-
+    newArrays.pop()
     console.log('sorry', element, 'we  can’t invite them to dinner.')
-    newArrays.shift()
-  }
-  if (newArrays.length <= 2) {
-    // var element = newArrays[index]
-    // console.log('you are invited for a dinner', element)
   }
 }
+console.log(newArrays[0], '&', newArrays[1], 'we  are invited for a dinner.')
