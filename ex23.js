@@ -30,3 +30,17 @@ if (truck === 'heno') {
 if (truck === 'metu') {
   console.log(`Is ${truck !== 'tralla'}? I predict false.`)
 }
+let bike = 'honda'
+
+if (bike === 'honda') {
+  console.log(`Is ${bike !== 'tralla'}? I predict false.`)
+}
+if (bike !== 'honda') {
+  console.log(`Is ${bike !== 'tralla'}? I predict false.`)
+}
+
+let cycle = 'shora'
+
+if (cycle !== 'honda') {
+  console.log(`Is ${cycle !== 'tralla'}? I predict false.`)
+}
