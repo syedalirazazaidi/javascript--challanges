@@ -39,4 +39,4 @@
 
 const alligatorFacts = ['thick scales', 80, '4 foot tail', 'rounded snout', 80]
 console.log(alligatorFacts.indexOf('rounded snout'))
-console.log(alligatorFacts.indexOf("soft and fluffy"))
+console.log(alligatorFacts.indexOf('soft and fluffy'))
